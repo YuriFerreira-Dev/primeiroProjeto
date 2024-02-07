@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <div id="box">
+            <h1>
+                Crie e compartilhe seu evento.
+            </h1>
+        
+            <h4>
+                o primeiro passo, é preencher esse formulário de inscrição.
+            </h4>
+        </div>
+    </header>
+
+    <main> 
+    <form action="">
+        <fieldset class="fieldset_model">
+                <legend>
+                    Informações do Evento
+                </legend>
+
+                <div class="fieldset_wrapper">
+                    <label for="event-title">
+                        <p>Título do evento <span>(minimo 8 caracteres)</span></p> 
+                    </label>
+                <input type="text" id="event-title" placeholder="insira o titulo aqui">
+            </div>
+
+            <div class="fieldset_wrapper">
+                <label for="event-link">
+                    <p>Link do evento <span>(Começe com https://)</span></p> 
+                </label>
+            <input type="text" id="event-link" placeholder="insira o Link aqui">
+        </div>
+
+        <div class="fieldset_wrapper">
+              <label for="event-zapzap">
+                   <p>Whatzap do evento <span>(Somente números)</span></p> 
+                </label>
+            <input type="text" id="event-zapzap" placeholder="insira o zap aqui">
+        </div>
+        
+        <div class="fieldset_wrapper">
+                <label for="event-info">
+                    <p>Mais Informações do evento</p> 
+                </label>
+            <textarea id="event-info" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="fieldset_wrapper">
+                <label for="event-category">
+                 <p>Categoria do evento</p> 
+             </label>
+            <select id="event-category">
+                <option value="escolha">Escolha uma Categoria</option>
+                <option value="festa">Festa</option>
+                <option value="social">Social</option>
+                <option value="aniversario">Aniversario</option>
+            </select>
+        </div>
+
+        </fieldset>
+        <fieldset id="privacidade">
+
+        <legend>
+            Privacidade 
+        </legend>
+
+            <div class="fieldset_wrapper">
+                <label for="security_email">
+                    <p>Email do adm</p> 
+                </label>
+            <input type="text" id="security_email" placeholder="Lembre de utilizar o @">
+        </div>
+
+        <div class="fieldset_wrapper">
+            <label for="security_password">
+                <p>Senha do evento <span>(somente se o evento for privado)</span></p> 
+            </label>
+        <input type="text" id="security_password" placeholder="Digite sua senha">
+    </div>
+        </fieldset>
+         <fieldset class="fieldset_model">
+            
+            <legend>
+                Data e Hora
+            </legend>
+
+            <div id="DSE">
+                
+                <div class="fieldset_wrapper" id="date-bar">
+                    <label for="event-date">
+                        <p>Data</p>
+                    </label>
+                    <input type="date" id="event-date">
+                </div>
+    
+                <div class="fieldset_wrapper">
+                    <label for="event-start">
+                        <p>Das</p>
+                    </label>
+                    <input type="time" id="event-start">
+                </div>
+    
+                <div class="fieldset_wrapper">
+                    <label for="event-end">
+                        <p>até as</p>
+                    </label>
+                    <input type="time" id="event-end">
+                </div>
+                
+            </div>
+         </fieldset>
+         <button>Salgar evento</button>
+    </form>
+    </main>
+</body>
+</html>

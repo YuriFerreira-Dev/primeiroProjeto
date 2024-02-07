@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #121214;
+    width:  100vw;
+    height: 14vw;
+    position: absolute;
+}
+#box{
+    padding-top: 3.5rem;
+    padding-left: 35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+header h1{
+    font-family: "Archivo", sans-serif;
+    font-weight: bold;
+    color: white;
+    max-width: 20rem;
+}
+header h4{
+    font-family: "Archivo", sans-serif;
+    color: #42D3FF;
+    max-width: 20rem;
+    font-weight: 100;
+}
+main form{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: white;
+    padding:  4rem;
+    width: 46.9375rem;
+    margin-left: 26.5rem;
+    position: relative;
+    top: 13rem;
+    left: 8rem;
+    border-radius: 0.3rem;
+}
+body{
+    background-color: #d9d9d9;
+}
+fieldset{
+    border: none;
+}
+.fieldset_wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    font-family: "Poppins", sans-serif;
+}
+fieldset legend{
+    font-size: 1.5rem;
+    font-family: "Archivo", sans-serif;
+    color: rgb(24, 24, 24);
+    font-weight: 600rem;
+}
+.fieldset_wrapper input {
+    padding: 1rem;
+    border: 0.2px solid gray;
+    border-radius: 0.6rem;
+    font-size: 1.4rem;
+    color: #747375;
+
+}
+.fieldset_wrapper input::placeholder{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+}
+.fieldset_wrapper p{
+    color: #4E4958;
+    font-size: 1.1rem;
+}
+.fieldset_wrapper span{
+    color: #c1bccc;
+    font-size: 0.8rem;
+}
+.fieldset_wrapper textarea{
+    resize: none;
+    border: 0.2px solid gray;
+    border-radius: 0.6rem;
+    font-size: 1.4rem;
+    color: #747375;
+    
+}
+.fieldset_wrapper select{
+    padding: 0.5rem;
+    border: 0.2px solid gray;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    color: #747375;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+}
+textarea:focus{
+    padding: 0.8rem;
+}
+#DSE{
+    display: flex;
+    gap: 1.2rem;
+}
+#date-bar{
+    width: 100%;
+}
+button{
+    margin-top: 1rem;
+    background-color: #04d361;
+    border: none;
+    border-radius: 0.6rem;
+    padding: 2rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: white;
+}
